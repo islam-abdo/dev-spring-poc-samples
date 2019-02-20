@@ -25,6 +25,7 @@ public class PollSystemApplication {
 	}
 	
 	public static void main(String[] args) {
+		//Added some comments to be committed to git
 		SpringApplication.run(PollSystemApplication.class, args);
 	}
 

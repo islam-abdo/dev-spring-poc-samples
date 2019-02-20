@@ -14,6 +14,7 @@ import java.util.stream.Collectors;
 public class ModelMapper {
 
     public static PollResponse mapPollToPollResponse(Poll poll, Map<Long, Long> choiceVotesMap, User creator, Long userVote) {
+    	//Some other comments here
         PollResponse pollResponse = new PollResponse();
         pollResponse.setId(poll.getId());
         pollResponse.setQuestion(poll.getQuestion());
